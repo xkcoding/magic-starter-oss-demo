@@ -1,3 +1,12 @@
 logging:
   level:
     com.xkcoding: debug
+magic:
+  oss:
+    ali-oss:
+      enabled: true
+      access-key: LTA**************WHXtC
+      secret-key: PQw*************************r3
+      endpoint: oss-cn-hangzhou.aliyuncs.com
+      bucket-name: test
+      https: true
