@@ -18,3 +18,10 @@ magic:
       bucket-name: test
       region: ap-shanghai
       https: true
+    qiniu-cloud:
+      enabled: true
+      access-key: 9Qx*****************9jtENhZ-sTGV**********f5Rd
+      secret-key: 8izWd*****************************Ccgd
+      bucket-name: test
+      endpoint: http://q3**********cho.bkt.clouddn.com
+      region: z0
