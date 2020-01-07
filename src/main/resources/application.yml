@@ -10,3 +10,11 @@ magic:
       endpoint: oss-cn-hangzhou.aliyuncs.com
       bucket-name: test
       https: true
+    tencent-cos:
+      enabled: true
+      app-id: 125****51
+      access-key: AK****************************at1pg
+      secret-key: npJ****************************nqz
+      bucket-name: test
+      region: ap-shanghai
+      https: true
