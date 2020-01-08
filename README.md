@@ -6,6 +6,18 @@
 
 ### 阿里云 OSS
 
+#### 引入依赖
+
+```xml
+<dependency>
+  <groupId>com.aliyun.oss</groupId>
+  <artifactId>aliyun-sdk-oss</artifactId>
+  <version>${aliyun.oss.version}</version>
+</dependency>
+```
+
+#### 配置文件
+
 ```yaml
 magic:
   oss:
@@ -19,6 +31,18 @@ magic:
 ```
 
 ### 腾讯云 COS
+
+#### 引入依赖
+
+```xml
+<dependency>
+  <groupId>com.qcloud</groupId>
+  <artifactId>cos_api</artifactId>
+  <version>${qcloud.oss.version}</version>
+</dependency>
+```
+
+#### 配置文件
 
 ```yaml
 magic:
@@ -35,6 +59,18 @@ magic:
 
 ### 七牛云
 
+#### 引入依赖
+
+```xml
+<dependency>
+  <groupId>com.qiniu</groupId>
+  <artifactId>qiniu-java-sdk</artifactId>
+  <version>${qiniu.oss.version}</version>
+</dependency>
+```
+
+#### 配置文件
+
 ```yaml
 magic:
   oss:
@@ -48,6 +84,18 @@ magic:
 ```
 
 ### MinIO
+
+#### 引入依赖
+
+```xml
+<dependency>
+  <groupId>io.minio</groupId>
+  <artifactId>minio</artifactId>
+  <version>${minio.oss.version}</version>
+</dependency>
+```
+
+#### 配置文件
 
 ```yaml
 magic:
